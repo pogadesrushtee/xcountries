@@ -1,0 +1,28 @@
+.countries-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card {
+  width: 180px;
+  height: 180px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+  background: #fafafa;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 80px;
+  height: 50px;
+  object-fit: cover;
+}
